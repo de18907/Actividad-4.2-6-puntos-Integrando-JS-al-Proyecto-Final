@@ -20,4 +20,7 @@ function enviar_correo(){
     if(correo.value && mensaje.value){
         alert("Correo Enviado "+"Correo: "+correo.value+" Descripcion: "+mensaje.value+" En unos momentos estaremos contactandolos")
     }
+    else{
+        alert("Favor completar todo los campos, para que sean enviados los datos")
+    }
 }
